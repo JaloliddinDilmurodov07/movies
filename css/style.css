@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 70px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.list li{
+    margin: 10px;
+}
+.move__card {
+    padding: 1px;
+    border: 1px solid rgb(5, 49, 152);
+  box-shadow: 0 0 2px 2px;
+    border-radius: 5px;
+    width: 250px;
+    overflow: hidden;
+}
+.move__card__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.move__card img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+.reting{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 485px;
+    top: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    width: 70px;
+    top: 30px;
+    height: 30px;
+    height: 30px;
+    left: 496px;
+    position: relative;
+    border-radius: 5px;
+}
+.category{
+    position: relative;
+    top: -30px;
+    height: 30px;
+    width: 200px;
+    left: 590px;
+    border-radius: 5px;
+    outline: none;
+}
+.year{
+    position: relative;
+    top: -60px;
+    left: 796px;
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+    outline: none;
+}
+.Inp{
+    border-radius: 5px;
+    position: relative;
+    width: 400px;
+    height: 30px;
+    left: 80px;
+    top: 30px;
+    outline: none;
+    border-radius: 2px solid blue;
+
+}
